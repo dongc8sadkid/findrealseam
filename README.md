@@ -80,7 +80,7 @@ Restart Photoshop, then find it under `File > Scripts > PS_FindRealSeam`.
 | Windows | `C:\Program Files\Adobe\Adobe Photoshop [版本]\Presets\Scripts\` |
 | macOS | `/Applications/Adobe Photoshop [版本]/Presets/Scripts/` |
 
-重启后在 `文件 > 脚本 > SeamFinder` 里找到它。
+重启后在 `文件 > 脚本 > FindRealSeam` 里找到它。
 
 ---
 ---
