@@ -1,6 +1,7 @@
 # findrealseam 白线别再来了！
 Adobe Photoshop JSX script to detect white seam artifacts in rasterized .tiffs for large format print
 一个 Photoshop ExtendScript 脚本，用于自动检测并选中 Adobe Illustrator 导出大尺寸 TIFF 时遗留的 1 像素白色缝隙线——然后你只需要一次 Content-Aware 填充就能全部补完。
+# 请不要因为这个脚本就放弃肉眼查验！请不要因为这个脚本就放弃肉眼查验！请不要因为这个脚本就放弃肉眼查验！重要的事说三遍，否则孙晓晓上班不带脑子扣50警告
 
 
 ## The Problem 问题背景
@@ -100,6 +101,8 @@ Restart Photoshop, then find it under `File > Scripts > PS_FindRealSeam`.
 4. Click **Find seams**. The script will report how many seams were found and leave them all selected.
 5. Press `Shift+F5`, choose **Content-Aware**, click **OK**.
 6. Run the script again to confirm the result is clean.
+
+--
 
 1. 在 Photoshop 里打开需要检查的 TIFF。
 2. 通过 `文件 > 脚本 > 浏览...` 运行脚本（或从脚本菜单启动）。
