@@ -2,7 +2,7 @@
 Adobe Photoshop JSX script to detect white seam artifacts in rasterized .tiffs for large format print
 一个 Photoshop ExtendScript 脚本，用于自动检测并选中 Adobe Illustrator 导出大尺寸 TIFF 时遗留的 1 像素白色缝隙线——然后你只需要一次 Content-Aware 填充就能全部补完。
 # 请不要因为这个脚本就放弃肉眼查验！请不要因为这个脚本就放弃肉眼查验！请不要因为这个脚本就放弃肉眼查验！重要的事说三遍，否则孙晓晓上班不带脑子扣50警告
-
+# Please don’t skip the visual inspection!!Please don’t skip the visual inspection!!Please don’t skip the visual inspection!!
 
 ## The Problem 问题背景
 When exporting high-resolution TIFFs from Adobe Illustrator (especially large-format files at 200–720 dpi), the rasterizer occasionally leaves behind 1-pixel-wide white lines that span the entire width or height of the image. They appear at unpredictable positions, and there can be any number of them. This is a long-standing Illustrator bug caused by the rasterizer splitting the canvas into rendering bands; at the seam between bands, sub-pixel coverage math rounds incorrectly and the white canvas bleeds through.
